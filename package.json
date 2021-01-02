@@ -1,0 +1,16 @@
+{
+  "name": "hextime-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "0xflotus"
+  },
+  "bin": {
+    "hextime": "./index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hextime": "^1.0.1",
+    "yargs": "^16.2.0"
+  }
+}
