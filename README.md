@@ -10,3 +10,5 @@ See [this](http://www.intuitor.com/hex/hexclock.html) article.
 ## Usage
 
 `hextime`
+
+`while :; do hextime; done`

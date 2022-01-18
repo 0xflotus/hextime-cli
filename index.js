@@ -12,7 +12,8 @@ const argv = yargs(hideBin(process.argv))
 
 
 const now = new Date();
-const nowStr = `${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
+const normalize = (num) => `${num}`.padStart(2, '0');
+const nowStr = `${normalize(now.getHours())}:${normalize(now.getMinutes())}:${normalize(now.getSeconds())}`;
 const hours = now.getHours();
 const minutes = now.getMinutes();
 const seconds = now.getSeconds();
